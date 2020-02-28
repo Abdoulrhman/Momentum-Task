@@ -13,7 +13,7 @@ class Wrapper extends Component {
   }
 
   onChangeImage = () => {
-    return this.state.isLoaded ? this.state.imgSrc : image;
+    return this.state.isLoaded ? image :  this.state.imgSrc;
   };
 
   render() {
